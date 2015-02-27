@@ -11,8 +11,8 @@
 
 server=localhost
 database=resume
-porrt=5432
-username=hena
+port=5432
+username=resume
 
 
 # Create functions

@@ -1,1 +1,1 @@
-CREATE DATABASE resume WITH owner=hena;
+CREATE DATABASE resume WITH owner=resume;

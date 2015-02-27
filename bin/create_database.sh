@@ -4,6 +4,7 @@
 # ------------------
 #
 # Create a PostgreSQL user
+# CREATE USER resume WITH login PASSWORD 'pass.word';
 #
 # Open a terminal, then run the following commands:
 #
@@ -11,7 +12,7 @@
 #
 # Add the following 2 lines to .pgpass (Without the first # on each line)
 #    #hostname:port:database:username:password
-#    localhost:5432:resume:hena:put-password-here
+#    localhost:5432:resume:resume:pass.word
 #
 # Save and close .pgpass
 #
