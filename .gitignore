@@ -1,6 +1,41 @@
-# temp files
+# Mac files
+.DS_Store
+lib-cov
+
+# Package management
+node_modules
+client/bower_components
+
+# Build
+build
+.tmp
+
+# Temp files / working directories
+*.swp
+.sass-cache/
 *.sql~
-*.sh~
+*.*~
+
+# Data files
+*.seed
+*.csv
+*.dat
+
+# Compressed files
+*.bz
+*.gz
+*.tar
+*.zip
+
+# Process and log files / directories
+pids
+logs
+*.log
+*.out
+*.pid
+
+# IDE files
+.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -17,7 +52,7 @@ develop-eggs/
 dist/
 downloads/
 eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -48,11 +83,9 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
-*.log
-
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
+
